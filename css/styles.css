@@ -72,10 +72,6 @@ margin-right: 50px;
     display: flex;
     align-items: center;
 }
-.contact-part-header{
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
 .contact-part-header:not(:last-child){
 margin-right: 50px;
 }
@@ -206,7 +202,7 @@ color: var(--accent-color);
 }
 .advantages-title{
     margin-bottom: 10px;
-    min-width: 270px;
+    width: 270px;
     font-family: var(--primary-font);
     font-weight: 700;
     font-size: 14px;
@@ -215,8 +211,9 @@ color: var(--accent-color);
     text-transform: uppercase;
     color: var(--heading-text-color);
 }
-.advantages-title:not(:last-child){
+.advantage-item:not(:last-child){
     margin-right: 30px;
+    width: 270px;
 }
 .advantages-description{
     width: 270px;
@@ -353,9 +350,6 @@ margin-right: 30px;
 }
 .project-image{
     flex-basis: ((100%-60)/3);
-}
-.projects{
-    background-color: #E5E5E5;
 }
 .project-card{
 border-bottom: 1px solid #EEEEEE;
